@@ -1,0 +1,44 @@
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+  }
+  .btn-reset {
+    width: 100px;
+    background-color: red;
+    color: white;
+    border-color: red;
+    border-radius: 5px;
+    box-shadow: none;
+  }
+  .btn-reset:hover {
+    background-color: darkred;
+    border-color: darkred;
+  }
+  .btn-stop {
+    width: 100px;
+    background-color: purple;
+    color: white;
+    border-color: purple;
+    border-radius: 5px;
+    box-shadow: none;
+  }
+  .btn-stop:hover {
+    background-color: crimson;
+    border-color: crimson;
+    box-shadow: none;
+  }
+  
+  .btn-start {
+    background-color: lightgreen;
+    color: black;
+    border-radius: 5px;
+    border-color: green;
+    box-shadow: none;
+  }
+  .btn-start:hover {
+    background-color: green;
+    color: white;
+  }
+  

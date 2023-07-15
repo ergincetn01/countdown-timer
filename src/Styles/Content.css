@@ -1,0 +1,81 @@
+.main {
+  margin: auto;
+  justify-content: center;
+  padding: 2px;
+  border: 1px solid black;
+  width: 500px;
+  border-radius: 7px;
+  height: 300px;
+}
+
+.lbl {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1px;
+  padding: 15px;
+}
+.clock-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: auto;
+}
+select option:hover {
+  background-color: red;
+}
+.option:hover {
+  background-color: darkblue;
+}
+.sq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  width: 70px;
+  height: 70px;
+}
+
+.clock-setter {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: auto;
+}
+.hourSetter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+.minSetter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+.secSetter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+select {
+  background-color: black;
+  color: white;
+}
